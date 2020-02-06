@@ -1,0 +1,20 @@
+        m = (XSpace + 1) \ 2
+        System.Console.WriteLine(m)
+        For i = 0 To WNum
+            If i Mod 2 = 0 Then
+                dirXPoint(2 * i) = New Point(BorderW - 1 + m + i * (DotW + XSpace), BorderW - 1 + m)
+                dirXPoint(2 * i + 1) = New Point(BorderW - 1 + m + i * (DotW + XSpace), HSize - BorderW - m)
+            Else
+                dirXPoint(2 * i) = New Point(BorderW - 1 + m + i * (DotW + XSpace), HSize - BorderW - m)
+                dirXPoint(2 * i + 1) = New Point(BorderW - 1 + m + i * (DotW + XSpace), BorderW - 1 + m)
+            End If
+        Next
+        For i = 0 To HNum
+            If i Mod 2 = 0 Then
+                dirYPoint(2 * i) = New Point(BorderW - 1 + m, BorderW - 1 + m + i * (DotH + YSpace))
+                dirYPoint(2 * i + 1) = New Point(WSize - BorderW - m, BorderW - 1 + m + i * (DotH + YSpace))
+            Else
+                dirYPoint(2 * i) = New Point(WSize - BorderW - m, BorderW - 1 + m + i * (DotH + YSpace))
+                dirYPoint(2 * i + 1) = New Point(BorderW - 1 + m, BorderW - 1 + m + i * (DotH + YSpace))
+            End If
+        Next
