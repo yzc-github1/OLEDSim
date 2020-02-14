@@ -45,6 +45,7 @@ Partial Class Form1
         Me.帮助ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.命令集ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.SplitContainer1 = New System.Windows.Forms.SplitContainer()
@@ -217,6 +218,7 @@ Partial Class Form1
         Me.GroupBox1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.GroupBox1.Controls.Add(Me.Button1)
         Me.GroupBox1.Controls.Add(Me.PictureBox1)
         Me.GroupBox1.Location = New System.Drawing.Point(12, 13)
         Me.GroupBox1.Name = "GroupBox1"
@@ -224,6 +226,15 @@ Partial Class Form1
         Me.GroupBox1.TabIndex = 2
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "OLED"
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(37, 330)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.TabIndex = 1
+        Me.Button1.Text = "Button1"
+        Me.Button1.UseVisualStyleBackColor = True
         '
         'GroupBox2
         '
@@ -326,4 +337,5 @@ Partial Class Form1
     Friend WithEvents ColorDialog1 As ColorDialog
     Friend WithEvents 命令集ToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Panel1 As Panel
+    Friend WithEvents Button1 As Button
 End Class

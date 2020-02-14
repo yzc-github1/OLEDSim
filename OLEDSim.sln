@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CmdWindow", "..\CmdWindow\CmdWindow.vbproj", "{8D8B470A-EC08-428D-A6DB-78FBDF4CB46B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{A6E6BB4E-A92C-430F-A245-189F096CA92E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6E6BB4E-A92C-430F-A245-189F096CA92E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6E6BB4E-A92C-430F-A245-189F096CA92E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D8B470A-EC08-428D-A6DB-78FBDF4CB46B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D8B470A-EC08-428D-A6DB-78FBDF4CB46B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D8B470A-EC08-428D-A6DB-78FBDF4CB46B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D8B470A-EC08-428D-A6DB-78FBDF4CB46B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
